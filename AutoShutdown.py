@@ -29,9 +29,16 @@ def vstat(ip, port) :
 port = 25565
  
 #Other stuff
-on = True
 ip = ip()
- 
+on = vstat(ip, port)
+
+if not on:
+    print("\a")
+    print("Server seems already off. You should run this script after starting the server.")
+    print("However, you have 5 minutes to open the server and avoid the shutdown.")
+
+on = True
+
 while on:
     print("System up and running")
     #Wait 5 minutes
