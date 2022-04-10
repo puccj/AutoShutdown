@@ -4,5 +4,5 @@
 ## Features
   This script checks if a connection can be made with your server every 5 minutes. If not, your computer will be shutdown (You will have a 30 sec. delay in which you can cancel by closing the window)
 ## Usage
-  You need to run AutoShutdown.py after turning on the server, and the last player to leave must turn off the server by entering the "/stop" command in minecraft.
+  You need to have Python installed and run AutoShutdown.py after turning on the server. The last player to leave must turn off the server by entering the "/stop" command in minecraft.
   Edit the file if you are running the server in a port which is not 25565.
